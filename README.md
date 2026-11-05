@@ -15,6 +15,16 @@
 
 ## 2. What I built (Parts 2 to 4)
 Write 3 to 5 lines in your own words.
+## Part 2 — Features Built and Tested
+- Added case-insensitive search by item name.
+- Added a category dropdown generated from the data, with each category shown once.
+- Added a live count showing the number of matching items.
+- Added a loading message while items are being fetched.
+- Added an empty-state message when no items match the search or category.
+- Added error handling for a missing data file (404) and a failed connection.
+- Used safe DOM text insertion with `textContent` for item data.
+- Added "Place not recorded" when an item has no place.
+- Tested search, category filtering, empty results, 404 errors, and connection errors.
 
 ## 3. AI log (at least 2 entries)
 For each entry: what I asked, what the AI gave me, **what was wrong or missing**, and **how I checked it**.
