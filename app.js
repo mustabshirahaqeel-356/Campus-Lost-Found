@@ -97,14 +97,22 @@ function render(items) {
     date.className = "date";
     date.textContent = `Found on ${item.date}`;
 
+    const badge = document.createElement("span");
+    badge.className = "status-badge";
+    badge.textContent = item.claimed ? "Claimed" : "Still waiting";
+
+    if (!item.claimed) {
+      badge.classList.add("waiting-badge");
+    }
+
     card.appendChild(heading);
     card.appendChild(details);
     card.appendChild(date);
+    card.appendChild(badge);
 
     board.appendChild(card);
   });
 }
-
 function showError(error) {
   board.innerHTML = "";
   count.textContent = "";

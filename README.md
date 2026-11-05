@@ -26,6 +26,15 @@ Write 3 to 5 lines in your own words.
 - Added "Place not recorded" when an item has no place.
 - Tested search, category filtering, empty results, 404 errors, and connection errors.
 
+## Part 3 — Mobile Layout and Status Badges
+
+- Made the layout responsive at 375px width.
+- Changed the item cards to a single-column layout on small screens.
+- Made the search input and category dropdown at least 44px tall.
+- Added a "Claimed" badge for claimed items.
+- Added a "Still waiting" badge for unclaimed items.
+- Tested the page at exactly 375px and checked for horizontal scrolling.
+
 ## 3. AI log (at least 2 entries)
 For each entry: what I asked, what the AI gave me, **what was wrong or missing**, and **how I checked it**.
 
