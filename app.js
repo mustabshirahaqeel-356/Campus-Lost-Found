@@ -8,6 +8,7 @@ const message = document.querySelector("#message");
 const count = document.querySelector("#count");
 const search = document.querySelector("#search");
 const category = document.querySelector("#category");
+const hideClaimed = document.querySelector("#hide-claimed");
 
 let allItems = [];
 
@@ -55,14 +56,21 @@ function showItems() {
   const searchText = search.value.toLowerCase().trim();
   const selectedCategory = category.value;
 
-  const filteredItems = allItems.filter(item => {
+  let filteredItems = allItems.filter(item => {
     const matchesSearch = item.name.toLowerCase().includes(searchText);
+
     const matchesCategory =
       selectedCategory === "all" ||
       item.category === selectedCategory;
 
-    return matchesSearch && matchesCategory;
+    const matchesClaimed =
+      !hideClaimed.checked || !item.claimed;
+
+    return matchesSearch && matchesCategory && matchesClaimed;
   });
+
+  // Show unclaimed items first.
+  filteredItems.sort((a, b) => Number(a.claimed) - Number(b.claimed));
 
   count.textContent = `Showing ${filteredItems.length} item(s)`;
 
@@ -128,5 +136,6 @@ function showError(error) {
 
 search.addEventListener("input", showItems);
 category.addEventListener("change", showItems);
+hideClaimed.addEventListener("change", showItems);
 
 loadItems().catch(showError);

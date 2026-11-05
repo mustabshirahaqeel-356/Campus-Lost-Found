@@ -35,6 +35,13 @@ Write 3 to 5 lines in your own words.
 - Added a "Still waiting" badge for unclaimed items.
 - Tested the page at exactly 375px and checked for horizontal scrolling.
 
+## Part 4 — Hide Claimed Items
+
+- Added a "Hide claimed items" checkbox.
+- Added filtering so claimed items can be hidden.
+- Kept unclaimed items before claimed items when both are shown.
+- Made the checkbox work together with search, category filtering, and the item count.
+- Tested the combined filters using different search and category combinations.
 ## 3. AI log (at least 2 entries)
 For each entry: what I asked, what the AI gave me, **what was wrong or missing**, and **how I checked it**.
 
