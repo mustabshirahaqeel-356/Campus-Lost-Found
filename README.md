@@ -42,19 +42,21 @@ Write 3 to 5 lines in your own words.
 - Kept unclaimed items before claimed items when both are shown.
 - Made the checkbox work together with search, category filtering, and the item count.
 - Tested the combined filters using different search and category combinations.
+
 ## 3. AI log (at least 2 entries)
 For each entry: what I asked, what the AI gave me, **what was wrong or missing**, and **how I checked it**.
 
 **Entry 1**
-- I asked:
-- The AI gave:
-- What was wrong or missing:
-- How I checked:
+- I asked: I asked the AI to help me find the errors in the starter files and explain how to fix them. 
+- The AI gave: It helped me identify the six problems and suggested fixes in the HTML, CSS, and JavaScript.
+- What was wrong or missing: Some suggestions were related to features that were actually part of later sections, so I had to make sure I only used the fixes needed for Part 1.
+- How I checked: I ran the website using Live Server and checked the Console and Network tab to make sure the errors were fixed.
 
 **Entry 2**
-- I asked:
-- The AI gave:
-- What was wrong or missing:
-- How I checked:
+- I asked: I asked the AI how to add the search, category filter, error messages, mobile layout, badges, and hide claimed feature.
+- The AI gave: It gave me the code changes and explained where to put them.
+- What was wrong or missing: I had to make some changes so the new features did not remove or affect the fixes I had already made.
+- How I checked: I tested the features myself by searching for items, changing categories, testing empty results and errors, checking the page at 375px, and using the hide claimed checkbox.
 
 ## 4. One thing I would improve next
+I would improve the overall design of the website and make the cards and controls look more polished.
