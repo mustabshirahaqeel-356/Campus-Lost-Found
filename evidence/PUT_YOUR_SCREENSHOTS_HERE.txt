@@ -1,0 +1,1 @@
+Save your test screenshots in this folder (see Part 5 of the paper).

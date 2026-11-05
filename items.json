@@ -1,0 +1,116 @@
+{
+  "count": 14,
+  "results": [
+    {
+      "id": 1,
+      "name": "Black wallet",
+      "category": "Bags",
+      "place": "Library",
+      "date": "2026-10-28",
+      "claimed": false
+    },
+    {
+      "id": 2,
+      "name": "Blue backpack",
+      "category": "bags",
+      "place": "Hall A",
+      "date": "2026-10-30",
+      "claimed": true
+    },
+    {
+      "id": 3,
+      "name": "Silver laptop charger",
+      "category": "Electronics",
+      "place": "Lab 4",
+      "date": "2026-10-29",
+      "claimed": false
+    },
+    {
+      "id": 4,
+      "name": "Car keys with red tag",
+      "category": "Keys",
+      "place": "Cafeteria",
+      "date": "2026-10-27",
+      "claimed": false
+    },
+    {
+      "id": 5,
+      "name": "Grey hoodie",
+      "category": "Clothing",
+      "date": "2026-10-31",
+      "claimed": false
+    },
+    {
+      "id": 6,
+      "name": "Physics textbook",
+      "category": "Books",
+      "place": "Hall B",
+      "date": "2026-10-26",
+      "claimed": true
+    },
+    {
+      "id": 7,
+      "name": "<b>Red</b> umbrella",
+      "category": "Other",
+      "place": "Main Gate",
+      "date": "2026-11-01",
+      "claimed": false
+    },
+    {
+      "id": 8,
+      "name": "Wireless earbuds",
+      "category": "Electronics",
+      "place": "Library",
+      "date": "2026-11-01",
+      "claimed": false
+    },
+    {
+      "id": 9,
+      "name": "Hostel room key",
+      "category": "Keys",
+      "place": "Admin Block",
+      "date": "2026-10-25",
+      "claimed": true
+    },
+    {
+      "id": 10,
+      "name": "Blue scarf",
+      "category": "Clothing",
+      "place": "Hall A",
+      "date": "2026-10-30",
+      "claimed": false
+    },
+    {
+      "id": 11,
+      "name": "Water bottle",
+      "category": "Other",
+      "place": "Sports Ground",
+      "date": "2026-10-29",
+      "claimed": false
+    },
+    {
+      "id": 12,
+      "name": "Scientific calculator",
+      "category": "Electronics",
+      "place": "Lab 2",
+      "date": "2026-10-28",
+      "claimed": true
+    },
+    {
+      "id": 13,
+      "name": "Green notebook",
+      "category": "Books",
+      "place": "Cafeteria",
+      "date": "2026-10-31",
+      "claimed": false
+    },
+    {
+      "id": 14,
+      "name": "Leather handbag",
+      "category": "Bags",
+      "place": "Hall B",
+      "date": "2026-11-02",
+      "claimed": false
+    }
+  ]
+}

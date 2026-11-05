@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Lost &amp; Found</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FIX 1: app.js was running before the body elements existed.
+     Added defer so the HTML is parsed before the JavaScript runs. -->
+<script src="app.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Campus Lost &amp; Found</h1>
+    <p>Found something? It might be here.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" type="text" placeholder="Search items...">
+      <select id="category">
+        <option value="all">All categories</option>
+      </select>
+    </section>
+
+    <p id="message"></p>
+    <p id="count"></p>
+    <div id="board"></div>
+  </main>
+</body>
+</html>
